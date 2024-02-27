@@ -5,19 +5,17 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Ecuavóley</title><link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Flag_of_Ecuador_%281900%E2%80%932009%29.svg/300px-Flag_of_Ecuador_%281900%E2%80%932009%29.svg.png" type="imagenes/x-icon">
 	<style type="text/css">
-		@media only screen and (max-width: 600px) {
 		body {
 			font-size: 14px;
       		font-family:sans-serif;
       		margin: 0;
       		padding: 0;
-      		background-color: #0cbccc;
+      		background: linear-gradient(to bottom, #142d4c 20%, #005187);
     	}
     	img {
     	max-width: 100%;
     	height: auto;
 		}
-    	}
 		header{
     	  	background: linear-gradient(to bottom,#005187 , #142d4c 120%);
       		color: white;
@@ -30,10 +28,11 @@
 			font-size: 45px;
 			text-align: center;
 			color: #142d4c;
-			box-shadow: 10px 19px 20px #142d4c;
 			margin: 40px 100px 70px 70px;
 			margin-inline-start: 300px;
-			margin-inline-end: 300px
+			margin-inline-end: 300px;
+			background-color: #;
+		
 		}
 		h2{
 			text-shadow: -13px 8px 4px rgba(20, 45, 76, 0.6);
@@ -41,7 +40,7 @@
 			font-size: 45px;
 			text-align: center;
 			color: #385170;
-			box-shadow: 10px 19px 20px #142d4c;
+			box-shadow: 5px 9px 10px #0cbccc;
 			margin: 40px 100px 70px 70px;	
 			margin-inline-start: 300px;
 			margin-inline-end: 300px
@@ -92,11 +91,12 @@
       		margin:-10px -10px -5px -10px;
 		}
 		#conjunto{
-			box-shadow: 5px 9px 10px #142d4c;
+			box-shadow: 10px 18px 20px #0cbccc;
 			margin: 40px 100px 70px 70px;	
 			padding: 30px 30px 30px 30px;
 			margin-inline-start: 100px;
 			margin-inline-end: 100px;
+			background-color: #ececec;
 		}
 		#a{
     		font-family: sans-serif;
@@ -126,7 +126,7 @@
 .interactive-button:hover {
     background: #ececec;
     color: black;
-    box-shadow: 5px 9px 10px #142d4c;
+    box-shadow: 5px 9px 10px #0cbccc; /* Cambia el color de fondo cuando el mouse está sobre el botón */
 }
 #boton{
 	margin: 20px 0px 0px 50px;
@@ -137,13 +137,26 @@
 	margin-inline-start: 100px;
 	margin-inline-end: 100px;
 }
+	#H1{
+	text-shadow: -13px 8px 4px rgba(20, 45, 76, 0.6);			
+			font-family: sans-serif;
+			font-size: 45px;
+			text-align: center;
+			color: #142d4c;
+			margin: 40px 100px 70px 70px;
+			margin-inline-start: 300px;
+			margin-inline-end: 300px;
+			background-color: #ececec;	
+			box-shadow: 5px 9px 10px #0cbccc;
+			cursor: pointer;
+	}
 	</style>
 	<body>
 <header>
  <table align="center"><tr>
  <a id="enlace" href="index.html"><h1 style="margin-inline-start: 280px;margin-inline-end: 300px; margin: 0px 10px 0px 10px" id="enlace">EcuaWeb</h1></a><a href="https://verbodivino.edu.ec" target="_blank">
  <img src="verbo_divino.jpg" width="5%" height="5%" align="left"></a>
- <p style="margin-inline-start: 580px;margin-inline-end: 300px;">¡Bienvenidos!</p>
+ <p style="margin-inline-start: 590px;margin-inline-end: 300px;">¡Bienvenidos!</p>
  </tr></table>
  <table align="center"><tr>
  <td><a id="boton" href="ecuavoley.html"><button id="boton" class="interactive-button">Ecuavóley</button></a></td>
@@ -153,13 +166,13 @@
  <td><a id="boton" href="bodoquera.html"><button id="boton" class="interactive-button">Bodoquera</button></a></td>
  </tr></table>
 </header>
-	<h1>ECUAVÓLEY</h1>
+	<h1 id="H1">ECUAVÓLEY</h1>
 <div id="conjunto">
 <p id="p1">El ecuavóley, también conocido como vóley ecuatoriano, comenzó a jugarse a mediados de la década de 1920 en Ecuador. Se considera que este deporte se originó en la provincia de Manabí. La versión ecuatoriana del vóley tiene reglas ligeramente diferentes en comparación con el vóley tradicional y ha ganado popularidad en el país, convirtiéndose en un deporte nacional. El ecuavóley se juega en una cancha más pequeña y con reglas únicas que lo distinguen de otras variantes del vóley. Desde su inicio, el ecuavóley ha sido una parte importante de la cultura deportiva ecuatoriana.</p>
 <table align="center"><tr><td>
 <img src="Ecuavoley.jpg" width="300px" height="150px"></tr></td></table>
 </div>
-<h2 style="font-size: 45px;">CREACIÓN DEL ECUAVÓLEY</h2>
+<h2 id="H1"style="font-size: 45px;">CREACIÓN DEL ECUAVÓLEY</h2>
 <div id="conjunto">
 <p id="p1">Un grupo de jóvenes entusiastas, amantes del vóley pero deseosos de disfrutar del juego en el entorno playero, ideó reglas y adaptaciones específicas. Modificaron las dimensiones de la cancha y ajustaron las reglas para que el juego se adaptara a la arena, dando origen a un deporte ágil y dinámico que capturó la esencia relajada y festiva de la región costera. Estos primeros jugadores, con creatividad y pasión, sentaron las bases del Ecuavóley, que con el tiempo se consolidaría como un deporte emblemático no solo en las playas de Manabí, sino en todo Ecuador.</p>
 <h3>Contexto y Necesidad de Adaptación (Década de 1920)</h3>
@@ -169,7 +182,7 @@
 <h3>Evolución y Arraigo Nacional (Siglo XXI)</h3>
 <p id="p1">Desde su creación, el Ecuavóley ha evolucionado y se ha arraigado en la identidad deportiva de Ecuador. Lo que comenzó como un juego playero en la década de 1920 se ha transformado en un fenómeno nacional que trasciende las fronteras geográficas y sociales. Hoy en día, el Ecuavóley no solo se practica en las playas, sino también en parques, clubes y eventos a lo largo y ancho del país. Este deporte, con su historia única y su capacidad para unir a la comunidad, se ha convertido en una expresión distintiva de la cultura ecuatoriana.</p>
 </div>
-<h2 style="font-size: 45px;">HISTORIA DEL ECUAVÓLEY</h2>
+<h2 id="H1"style="font-size: 45px;">HISTORIA DEL ECUAVÓLEY</h2>
 <div id="conjunto">
 <p id="p1">El Ecuavóley, un deporte único y emblemático de Ecuador, tiene sus humildes orígenes en las soleadas playas de la provincia de Manabí durante la década de 1920. Un grupo de jóvenes entusiastas, ansiosos por adaptar el vóley convencional a las condiciones playeras, idearon un juego que capturara la esencia de la costa ecuatoriana. Con dimensiones de cancha más pequeñas y reglas específicas, el Ecuavóley nació como una fusión de destreza, creatividad y la pasión por el juego bajo el cálido sol del Pacífico.</p>
 <table align="center"><tr><td>
